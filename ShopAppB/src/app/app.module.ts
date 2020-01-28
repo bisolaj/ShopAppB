@@ -8,6 +8,7 @@ import { MainComponent } from './views/main/main.component';
 import { FooterComponent } from './views/footer/footer.component';
 import { ProductlistComponent } from './views/productlist/productlist.component';
 import { ProductdescComponent } from './views/productdesc/productdesc.component';
+import { ModalComponent } from './views/modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ProductdescComponent } from './views/productdesc/productdesc.component'
     MainComponent,
     FooterComponent,
     ProductlistComponent,
-    ProductdescComponent
+    ProductdescComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,

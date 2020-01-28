@@ -3,6 +3,7 @@ export interface IProduct {
     pName: string;
     pNameURL: string;
     pDesc: string;
+    pImage: string;
     additionalInfo: string;
     price: string;
 }
